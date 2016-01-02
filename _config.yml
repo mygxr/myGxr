@@ -1,0 +1,20 @@
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]   
+highlighter: pygments
+
+
+sitename: gxr1020
+
+list:
+- one
+- two
+- three
+- free
+
+one: 第一篇
+two: 第二篇
+three: 第三篇
+free: 第四篇
+
+title: 我是配置文件的标题

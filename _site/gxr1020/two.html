@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/pygments.css">
+</head>
+<body>
+	<div id="header">头部</div>
+	<p>第二篇正文</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">exists</span><span class="p">(</span><span class="nx">pth</span><span class="p">,</span> <span class="nx">mode</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">try</span> <span class="p">{</span>
+    <span class="nx">fs</span><span class="p">.</span><span class="nx">accessSync</span><span class="p">(</span><span class="nx">pth</span><span class="p">,</span> <span class="nx">mode</span><span class="p">);</span>
+    <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="c1"># ...ruby code</span>
+</code></pre></div>
+<p>第二</p>  
+
+<p>我是配置文件的标题</p>
+
+	<div id="footer">尾部</div>
+	
+</body>
+</html>
